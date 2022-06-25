@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+Example Responses
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Json Schema Example Responses
+by Name
+{ 
+    "bodyPart":"string"
+    "equipment":"string"
+    "gifUrl":"string"
+    "id":"string"
+    "name":"string"
+    "target":"string"
+}
 
-## Available Scripts
+by bodypart
+{
+    0:"back"
+    1:"cardio"
+    2:"chest"
+    3:"lower arms"
+    4:"lower legs"
+    5:"neck"
+    6:"shoulders"
+    7:"upper arms"
+    8:"upper legs"
+    9:"waist"
+}
 
-In the project directory, you can run:
+by all exercises
+{
+    "bodyPart":"string"
+    "equipment":"string"
+    "gifUrl":"string"
+    "id":"string"
+    "name":"string"
+    "target":"string"
+}
 
-### `npm start`
+by muscle
+[
+    0:"abductors"
+    1:"abs"
+    2:"adductors"
+    3:"biceps"
+    4:"calves"
+    5:"cardiovascular system"
+    6:"delts"
+    7:"forearms"
+    8:"glutes"
+    9:"hamstrings"
+    10:"lats"
+    11:"levator scapulae"
+    12:"pectorals"
+    13:"quads"
+    14:"serratus anterior"
+    15:"spine"
+    16:"traps"
+    17:"triceps"
+    18:"upper back"
+]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+list of equpiment
+[
+    0:"assisted"
+    1:"band"
+    2:"barbell"
+    3:"body weight"
+    4:"bosu ball"
+    5:"cable"
+    6:"dumbbell"
+    7:"elliptical machine"
+    8:"ez barbell"
+    9:"hammer"
+    10:"kettlebell"
+    11:"leverage machine"
+    12:"medicine ball"
+    13:"olympic barbell"
+    14:"resistance band"
+    15:"roller"
+    16:"rope"
+    17:"skierg machine"
+    18:"sled machine"
+    19:"smith machine"
+    20:"stability ball"
+    21:"stationary bike"
+    22:"stepmill machine"
+    23:"tire"
+    24:"trap bar"
+    25:"upper body ergometer"
+    26:"weighted"
+    27:"wheel roller"
+]

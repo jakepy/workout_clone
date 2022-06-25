@@ -3,8 +3,7 @@ import { Stack, Typography } from '@mui/material'
 
 import Icon from '../assets/icons/gym.png'
 
-const BodyPart = ({ item, setBodyPart, bodyPart }) => {
-  return (
+const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     <Stack
         type='button'
         alignItems='center'
@@ -42,7 +41,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
             color='#3A1212'
             textTransform='capitalize'>{item}</Typography>
     </Stack>
-  )
-}
+)
+
 
 export default BodyPart
